@@ -1,0 +1,63 @@
+body {
+    background-color: #ff85d4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+header {
+    display: block;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header p {
+    font-size: 12px;
+}
+
+.hover:hover {
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#list {
+    font-size: 13px;
+    display: block;
+    color: black;
+    width: 30%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+img {
+    width: 15%;
+}
+
+h2 {
+    width: 18%;
+    margin: 25px auto;
+}
+
+footer {
+    color: black;
+    display: block;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.quote {
+    
+    line-height: 30px;
+    font-weight: 50% lighter;
+}
