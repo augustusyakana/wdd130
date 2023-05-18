@@ -113,6 +113,8 @@ header {
 }
 
 .book:hover, .join:hover {
+
+    color: white;
     font-weight: bolder;
     background-color: #5e503f;
 }
