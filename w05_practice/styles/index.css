@@ -1,0 +1,24 @@
+main {
+    width: 100%;
+    padding: 50px;
+    background-image: url(../images/Image.jpg);
+    background-size: cover;
+    background-color: darkslategrey;
+    background-blend-mode: darken;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+img {
+    margin: -4px auto;
+    width: 100%;
+}
+
+
+.icon1, .icon2, .icon3 {
+
+    width: 230px;
+    margin:0 60px;
+    border-radius: 50%;
+    border: 10px solid #1d14149c;
+}

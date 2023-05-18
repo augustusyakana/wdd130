@@ -5,27 +5,35 @@ body {
 nav, footer {
     background-color: steelblue;
     color: white;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
+    text-decoration: none;
 }
 
 #active {
-    background-color: white;
-    color: steelblue;
+    
+    color: white;
+    text-decoration: underline;
 }
 
 a {
+    padding: 25px;
     font-size: 1.5em;
     color: white;
     margin: 40px;
+    text-decoration: none;
 }
 
 h1 {
+
+    margin: 50px 0;
     color: steelblue;
     text-align: center;
 }
 
 img {
+
+    border: 4px solid steelblue;
     width: 80%;
     display: block;
     margin: 0 auto;
@@ -44,11 +52,19 @@ p {
 }
 
 footer p {
+
+    padding: 25px;
     font-size: 20px;
     margin: 20px auto;
 }
 
 a:hover {
-    background-color: white;
-    color: steelblue;
+
+    color: blue
+}
+
+#active:hover {
+
+    background-color: steelblue;
+    color: blue;
 }
