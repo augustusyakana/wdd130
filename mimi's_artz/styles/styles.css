@@ -40,8 +40,12 @@ nav a{
     width: 100px;
     padding: 50px;
     text-align: center;
+    margin: 10px 10px 10px 10px;
     
+}
 
+nav a:hover {
+    font-weight: bolder;
 }
 
 #hero_box img {
