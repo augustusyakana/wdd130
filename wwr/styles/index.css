@@ -280,6 +280,55 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+#faq_title {
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#faq_content {
+    display: block;
+    margin: 200px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.faq_question {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#faq_1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#faq_2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#faq_3 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#faq_4 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#faq_5 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#faq_6 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
