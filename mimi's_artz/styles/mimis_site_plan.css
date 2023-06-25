@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Domine&family=Montserrat&display=swap');
 :root {
     /* change the values below to your colors from your palette */
-  --primary-color: #22333B  ;
-  --secondary-color: #EAE0D5 ;
-  --accent1-color: #C6AC8F;
-  --accent2-color: #5e503f;
+  --primary-color: black;
+  --secondary-color: #fefdfe ;
+  --accent1-color: #1773ff;
+  --accent2-color: #bd82e3;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Domine, Georgia, serif;
@@ -13,15 +13,14 @@
   --heading-font2: Alex+Brush;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #5e503f;  /* headlines on a white background */ 
-  --headline-color-on-color: #EAE0D5; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #22333B; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #C6AC8F; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #5e503f ;
-  --nav-link-color: #C6AC8F;
-  --nav-background-color: #5e503f;
-  --nav-hover-link-color: #EAE0D5;
-  --nav-hover-background-color: #C6AC8F;
+  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-color: #fefdfe; /* headlines on a colored background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #fefdfe; /* paragraph text on a colored background */ 
+  --paragraph-background-color: black;
+  --nav-link-color: #fefdfe;
+  --nav-hover-link-color: #1773ff;
+  --nav-hover-link-color2: #bd82e3;
 }
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -119,7 +118,6 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
 }
 .sitemap {
   display: grid;
