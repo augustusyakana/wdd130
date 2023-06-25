@@ -18,9 +18,11 @@
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #fefdfe; /* paragraph text on a colored background */ 
   --paragraph-background-color: black;
-  --nav-link-color: #fefdfe;
-  --nav-hover-link-color: #1773ff;
-  --nav-hover-link-color2: #bd82e3;
+  --nav-link-color:#fefdfe;
+  --nav-background-color:black;
+  --nav-hover-background-color: white;
+  --nav-hover-link-color1:#1773ff;
+  --nav-hover-link-color2:#bd82e3;
 }
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -30,6 +32,14 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+}
+
+#gallery_hover:hover{
+  color: #bd82e3;
+}
+
+#contact_hover:hover {
+  color: #1773ff;
 }
 
 .primary {
@@ -115,9 +125,10 @@ nav a {
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
+  background-color: var(--nav-background-color);
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
+  color: var(--nav-hover-link-color1);
 }
 .sitemap {
   display: grid;
