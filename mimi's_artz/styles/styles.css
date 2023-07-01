@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 #home_gallery_button a {
-
+    font-family: var(--paragraph-font);
     font-size: 14px;
     text-decoration: none;
     color:white;
