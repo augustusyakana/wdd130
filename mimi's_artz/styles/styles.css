@@ -26,7 +26,7 @@ p {
     font-family: var(--paragraph-font);
 }
 
-h1 {
+h1, h2, h3 {
     font-family: var(--heading-font);
 }
 
@@ -107,7 +107,7 @@ nav a:hover {
 }
 
 #quote {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 20%;
 }
@@ -120,7 +120,7 @@ nav a:hover {
     grid-column: 4/5;
     display: flex;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 #home_gallery_button a {
@@ -173,6 +173,7 @@ footer {
 #home-footer-links a {
     text-decoration: none;
     color: var(--accent1-color);
+    font-family: var(--paragraph-font);
 }
 
 #home-footer-links a:hover {
