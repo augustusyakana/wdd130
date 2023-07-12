@@ -192,7 +192,7 @@ footer {
     background-color: var(--nav-hover-link-color2);
 }
 
-#contactus_body {
+#contactus_body, #gallery_body {
     background-color: black;
 }
 
@@ -235,7 +235,8 @@ footer {
 }
 
 #contact_button a {
-    color: var(--accent1-color);
+    color: black;
+    text-decoration: none;
 }
 
 #contact_button {
@@ -256,6 +257,111 @@ footer {
     background-color: var(--accent1-color);
 }
 
-#contact_button a:hover {
+#gallery_content {
     color: white;
+}
+
+.gallery_title {
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+    font-size: 60px;
+    color: var(--accent2-color);
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#gallery img {
+    border: 2px solid var(--accent2-color);
+}
+
+#gallery img:hover {
+    transform: scale(1.5);
+}
+
+#gallery p {
+    width: 200px;
+}
+
+
+
+#img1 {
+    grid-column: 2/3;
+}
+
+#img2 {
+    grid-column: 3/4;
+}
+
+#img3 {
+    grid-column: 4/5;
+}
+
+#img4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#img5 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#img6 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+#img7 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#img8 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#img9 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+#img10 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#gallery_question {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#gallery_button {
+    width: 80px;
+    margin: 0 auto;
+    font-family: var(--paragraph-font);
+    font-size: 14px;
+    text-decoration: none;
+    color:white;
+    background-color: white;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 2px;
+    margin-bottom: 50px
+}
+
+#gallery_button a {
+    color: black;
+    text-decoration: none;
+}
+
+#gallery_button:hover {
+    background-color: var(--accent2-color);
+}
+
+#gallery p:hover {
+    text-shadow: ;
 }
