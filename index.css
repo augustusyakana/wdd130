@@ -1,0 +1,48 @@
+body {
+    background-color: #00bfb2;
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    background-image: url(home_images/tonga-ifad-photo-mission-december-2019-ifad-photo-mission-december-2019_49252034606_o.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: green;
+    width: 100%;
+    color: #00bfb2;
+    
+}
+
+#header_name {
+   padding: 10px;
+}
+
+#logo-img {
+    grid-column: 1/2;
+    
+}
+
+header img {
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 2px black;
+    margin-top: 20px;
+    
+}
+
+#writer_icon img {
+    width: 50px;
+    padding: 20px;
+}
+
+#school_bag img {
+    width: 50px;
+    padding: 20px;
+}
+
+#idea_icon img {
+    width: 50px;
+    padding: 20px;
+}
