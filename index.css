@@ -33,16 +33,30 @@ header img {
 }
 
 #writer_icon img {
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 2px gray;
     width: 50px;
     padding: 20px;
 }
 
 #school_bag img {
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 2px gray;
     width: 50px;
     padding: 20px;
 }
 
+#school_bag h2 {
+    margin-top: 50px;
+}
+
 #idea_icon img {
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 2px gray;
     width: 50px;
     padding: 20px;
+}
+
+#idea_icon h2 {
+    margin-top: 50px;
 }
