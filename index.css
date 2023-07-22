@@ -1,21 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda&display=swap');
+
 body {
-    background-color: #00bfb2;
-    width: 100%;
+    background-color: #00BFB2;
     text-align: center;
+}
+
+body a {
+    font-family: 'Bodoni Moda', serif;
+}
+
+body, h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
 }
 
 header {
     background-image: url(home_images/tonga-ifad-photo-mission-december-2019-ifad-photo-mission-december-2019_49252034606_o.jpg);
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: green;
+    background-color: darkgreen;
     width: 100%;
     color: #00bfb2;
-    
+    margin-top: -10px;
+    margin: auto;
 }
 
-#header_name {
-   padding: 10px;
+#header_name img {
+    width: 500px;
+    margin: auto;
+    color: white;
+    margin-top: -40px;
 }
 
 #logo-img {
@@ -23,9 +37,9 @@ header {
     
 }
 
-header img {
+#logo-img img {
     border: 2px solid black;
-    width: 200px;
+    width: 300px;
     border-radius: 50px;
     box-shadow: 5px 5px 10px 2px black;
     margin-top: 20px;
@@ -37,6 +51,7 @@ header img {
     box-shadow: 5px 5px 10px 2px gray;
     width: 50px;
     padding: 20px;
+    margin-top: -20px;
 }
 
 #school_bag img {
@@ -44,6 +59,8 @@ header img {
     box-shadow: 5px 5px 10px 2px gray;
     width: 50px;
     padding: 20px;
+    margin-top: -20px;
+
 }
 
 #school_bag h2 {
@@ -55,8 +72,22 @@ header img {
     box-shadow: 5px 5px 10px 2px gray;
     width: 50px;
     padding: 20px;
+    margin-top: -20px;
 }
 
 #idea_icon h2 {
     margin-top: 50px;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    background-image: url(home_images/tonga-ifad-photo-mission-december-2019-ifad-photo-mission-december-2019_49252034606_o.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: darkgreen;
+}
+
+footer p {
+    padding: 30px;
 }
