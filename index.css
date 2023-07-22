@@ -90,4 +90,6 @@ footer {
 
 footer p {
     padding: 30px;
+    width: 150px;
+    margin: 0 auto;
 }
