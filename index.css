@@ -98,6 +98,7 @@ footer {
     background-size: cover;
     background-blend-mode: multiply;
     background-color: darkgreen;
+    margin-top: 20px;
 }
 
 footer p {
