@@ -1,0 +1,32 @@
+body {
+    background-color: ;
+}
+
+#me {
+    background-color: lightskyblue;
+    width: 100%;
+    margin: -8px -8px;
+    padding: 20px;
+}
+
+#myself{
+    width: 30%;
+}
+
+#ece {
+    text-align: right;
+    margin-top: -20px;
+    background-color: lightcoral;
+    width: 100%;
+}
+
+#ece div {
+    padding-right: 10px;
+}
+
+#elementary {
+    margin-top: -20px;
+    background-color: orange;
+    width: 100%;
+    text-align: right;
+}
