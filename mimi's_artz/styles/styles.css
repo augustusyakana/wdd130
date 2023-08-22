@@ -3,26 +3,32 @@
 
 :root {
     /* change the values below to your colors from your palette */
-  --primary-color: black;
-  --secondary-color: #fefdfe ;
-  --accent1-color: #1773ff;
-  --accent2-color: #bd82e3;
+--primary-color: black;
+--secondary-color: #fefdfe ;
+--accent1-color: #1773ff;
+--accent2-color: #bd82e3;
 
-  /* change the values below to your chosen font(s) */
-  --heading-font: 'Domine', 'Georgia', serif;
-  --paragraph-font: 'Montserrat', Helvetica, sans-serif;
-  --heading-font2: Alex Brush, cursive;
+/* change the values below to your chosen font(s) */
+--heading-font: 'Domine', 'Georgia', serif;
+--paragraph-font: 'Montserrat', Helvetica, sans-serif;
+--heading-font2: Alex Brush, cursive;
 
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: #fefdfe; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #fefdfe; /* paragraph text on a colored background */ 
-  --paragraph-background-color: black;
-  --nav-link-color: #fefdfe;
-  --nav-hover-link-color1: #1773ff;
-  --nav-hover-link-color2: #bd82e3;
-  }
+/* these colors below should be chosen from among your palette colors above */
+--headline-color-on-white: black;  /* headlines on a white background */ 
+--headline-color-on-color: #fefdfe; /* headlines on a colored background */ 
+--paragraph-color-on-white: black; /* paragraph text on a white background */ 
+--paragraph-color-on-color: #fefdfe; /* paragraph text on a colored background */ 
+--paragraph-background-color: black;
+--nav-link-color: #fefdfe;
+--nav-hover-link-color1: #1773ff;
+--nav-hover-link-color2: #bd82e3;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+}
 
 p {
     font-family: var(--paragraph-font);
@@ -158,7 +164,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-around;
     padding: 30px;
-    border-top: 1px solid white;
+    /* border-top: 1px solid white; */
 }
 
 #copyright {

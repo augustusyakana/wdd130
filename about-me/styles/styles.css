@@ -1,33 +1,145 @@
 body {
-    background-color: peachpuff;
-    text-align: center;
+    background-color: white;
+    
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+
+    scroll-behavior: smooth;
 }
 
-#me {
-    background-color: lightskyblue;
-    width: 100%;
-    margin: -8px -8px;
+/* TOP HEADER */
+
+.top_header {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0;
+    margin: 0;
+
+    color: black;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    margin-left: 20em;
     padding: 10px;
+    /* margin-top: 10px; */
 }
 
-#myself{
-    width: 10%;
+.logo img {
+    width: 9em;
 }
 
-#ece {
-    text-align: right;
-    margin-top: -20px;
-    background-color: lightcoral;
-    width: 100%;
+.logo img:hover {
+    transform: scale(1.1);
 }
 
-#ece div {
-    padding-right: 10px;
+nav {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    align-items: center;
+    gap: 3em;
+
+    margin-right: 5em;
+
 }
 
-#elementary {
-    margin-top: -20px;
-    background-color: orange;
-    width: 100%;
-    text-align: right;
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px
+    /* border: 2px solid red; */
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+/* BOTTOM HEADER  */
+
+.bottom-header {
+    /* border: 2px solid black; */
+
+    padding: 0;
+    margin: 0;
+    height: 30em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction {
+    border: 2px solid red;
+
+    padding: 4em;
+    width: 53em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+
+.intro {
+    /* border: 2px solid blue; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 30em;
+    padding: 5px;
+    
+}
+
+.intro .hello {
+    font-size: 20px;
+    margin-bottom: -50px;
+    margin-left: 150px;
+    
+}
+
+.intro .title {
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.intro h1 {
+    font-size: 44px;
+}
+
+.photo img {
+    width: 15em;
+    border-radius: 50%;
+
+    border: 3px solid black;
+    
+}
+
+.socials {
+    /* border: 2px solid green; */
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5em;
+
+    margin-top: 10px;
+}
+
+.socials img {
+    width: 2.5em;
+}
+
+.socials img:hover {
+    transform: scale(1.1);
 }
